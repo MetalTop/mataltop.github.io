@@ -1,0 +1,13 @@
+.material-strip a:hover{color:var(--blue)}
+.diy{background:#f7f3ed;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.diy-intro{max-width:840px;color:var(--muted);margin-bottom:38px}
+.diy-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+.diy-grid article{border-top:1px solid #c9b6a1;padding:26px 0 10px}
+.diy-grid .service-no{margin-bottom:16px}
+.diy-grid h3{color:var(--ink);margin-bottom:15px}
+.diy-grid p{font-size:15px;color:var(--muted)}
+.diy-footer{display:flex;justify-content:space-between;align-items:center;gap:28px;border-top:1px solid var(--line);padding-top:28px;margin-top:25px}
+.diy-footer p{font-size:14px;color:var(--muted);margin:0}
+.diy-footer .button{background:#73543f;color:#fff;gap:20px;flex-shrink:0}
+.diy-footer .button:hover{background:#503b2e}
+@media(max-width:760px){.diy-grid{grid-template-columns:1fr;gap:15px}.diy-footer{align-items:flex-start;flex-direction:column}.diy-footer .button{width:100%}.diy .section-heading{align-items:flex-start;flex-direction:column;gap:18px}}
